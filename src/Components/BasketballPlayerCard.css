@@ -1,0 +1,42 @@
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    max-width: 400px;
+    margin: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black; 
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .player-name {
+    font-size: 1.5em;
+    margin: 1px;
+    color: #333;
+  }
+  
+  .player-position {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .player-stats {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .player-stats p {
+    margin: 1px;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
